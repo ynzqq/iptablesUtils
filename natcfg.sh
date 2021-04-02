@@ -11,9 +11,7 @@ touch $conf
     clear
     echo "#############################################################"
     echo "# Usage: setup iptables nat rules for domian/ip             #"
-    echo "# Website:  http://www.arloor.com/                          #"
-    echo "# Author: ARLOOR <admin@arloor.com>                         #"
-    echo "# Github: https://github.com/arloor/iptablesUtils           #"
+    echo "# Github: https://github.com/ynzqq/iptablesUtils            #"
     echo "#############################################################"
     echo
 
