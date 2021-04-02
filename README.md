@@ -1,7 +1,5 @@
 # 利用iptables设置端口转发的shell脚本
 
-电报讨论组 https://t.me/popstary
-
 ## 项目作用
 
 1. 便捷地设置iptables流量转发规则
@@ -11,13 +9,7 @@
 
 
 ```shell
-# 如果vps不能访问 raw.githubusercontent.com 推荐使用这个
-wget --no-check-certificate -qO natcfg.sh http://www.arloor.com/sh/iptablesUtils/natcfg.sh && bash natcfg.sh
-```
-或
-
-```
-wget --no-check-certificate -qO natcfg.sh https://raw.githubusercontent.com/arloor/iptablesUtils/master/natcfg.sh && bash natcfg.sh
+wget --no-check-certificate -qO natcfg.sh https://raw.githubusercontent.com/ynzqq/iptablesUtils/master/natcfg.sh && bash natcfg.sh
 ```
 
 输出如下：
@@ -25,9 +17,7 @@ wget --no-check-certificate -qO natcfg.sh https://raw.githubusercontent.com/arlo
 ```
 #############################################################
 # Usage: setup iptables nat rules for domian/ip             #
-# Website:  http://www.arloor.com/                          #
-# Author: ARLOOR <admin@arloor.com>                         #
-# Github: https://github.com/arloor/iptablesUtils           #
+# Github: https://github.com/ynzqq/iptablesUtils            #
 #############################################################
 
 你要做什么呢（请输入数字）？Ctrl+C 退出本脚本
@@ -41,7 +31,7 @@ wget --no-check-certificate -qO natcfg.sh https://raw.githubusercontent.com/arlo
 ## 卸载
 
 ```shell
-wget --no-check-certificate -qO uninstall.sh https://raw.githubusercontent.com/arloor/iptablesUtils/master/dnat-uninstall.sh && bash uninstall.sh
+wget --no-check-certificate -qO uninstall.sh https://raw.githubusercontent.com/ynzqq/iptablesUtils/master/dnat-uninstall.sh && bash uninstall.sh
 ```
 
 ## trojan转发
@@ -65,8 +55,4 @@ iptables的后继者nftables已经在debain和centos最新的操作系统中作�
 所以**强烈推荐**使用[/arloor/nftables-nat-rust](https://github.com/arloor/nftables-nat-rust)。不用担心，本项目依然可以正常稳定使用。
 
 PS: 新旧两个项目并不兼容，切换到新项目时，请先卸载此项目
-
-## 赏个鸡腿吧
-
-<img src="/wechat_shoukuan.jpg" alt="" width="400px" style="max-width: 100%;">
 
